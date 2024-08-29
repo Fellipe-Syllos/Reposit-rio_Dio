@@ -19,9 +19,11 @@ Repositório destinados à resumos Git e GitHub - Curso de versionamento de cód
 ### Comandos
 | Código | Função |
 |--------|--------|
-|git init|Cria um novo repositório Git ou reiniciar um já existente.|
 |git clone|Clona um repositório em um novo diretório.|
-|git add|"Adiciona" a alteração feita de um arquivo ao seu index|
-|git commit|Confirma as alterações|
-|git push|Envia as alterações para o diretório|
+|git init|Cria um novo repositório Git ou reiniciar um já existente.|
+|git add .|"Adiciona" a alteração feita de um arquivo ao seu index|
+|git commit -m "comentario"|Confirma as alterações|
+|git branch -M main|Determina a branch como main|
+|git remote add origin + link| Adiciona o repositório remoto ao GitHub|
+|git push -u origin main|Envia as alterações para o diretório com a origem da branch|
 |git help|Abre a função de ajuda|
